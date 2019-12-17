@@ -12,5 +12,9 @@ def reverse_each_word(string)
   end
 end
 
-
-string = 
+def reverse_each_word(string)
+string = "Verifying that collect is being called."
+string.collect do |word|
+  puts "#{word}.reverse"
+end
+end
