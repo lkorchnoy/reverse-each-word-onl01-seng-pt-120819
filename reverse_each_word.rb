@@ -1,9 +1,14 @@
 def reverse_each_word(string)
-  string.each do |string|
+  string.each do |word|
 end
-puts string.reverse
+puts "#{word}.reverse"
 end
 reverse_each_word("Hello there, and how are you?")
 
-def 
-  string = ""
+def reverse_each_word(string)
+  string = "Hi again, just making sure it's reversed!"
+  string.each do |word|
+    puts #{word}.reverse
+  end
+end
+
